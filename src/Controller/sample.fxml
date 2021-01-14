@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Controller">
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <TextField fx:id="TextField" />
+        <HBox prefHeight="46.0" prefWidth="200.0" GridPane.rowIndex="1">
+            <children>
+                <Button mnemonicParsing="false" prefHeight="81.0" prefWidth="125.0" text="Quick Search" />
+                <Button mnemonicParsing="false" prefHeight="86.0" prefWidth="126.0" text="Search" />
+            </children>
+        </HBox>
+        <TextArea fx:id="TextArea" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2" />
+    </children>
+</GridPane>
