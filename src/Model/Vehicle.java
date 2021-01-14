@@ -61,6 +61,6 @@ public class Vehicle
     @Override
     public String toString()
     {
-        return "color: " + color + "\n" + "owner: " + owner + "\n" + "manufacturer: " + manufacturer + "\n" + "model: " + model + " " + "licensePlate" + licensePlate +"";
+        return "color: " + color + "\n" + "owner: " + owner + "\n" + "manufacturer: " + manufacturer + "\n" + "model: " + model + "\n" + "licensePlate: " + licensePlate + "";
     }
 }
